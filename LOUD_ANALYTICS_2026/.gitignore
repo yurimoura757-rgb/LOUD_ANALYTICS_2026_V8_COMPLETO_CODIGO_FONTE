@@ -1,0 +1,25 @@
+# Ambientes e artefatos gerados
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+build/
+dist/
+*.spec
+*.egg-info/
+
+# Cache de dados e diagnosticos locais
+*.sqlite3
+*.sqlite3-*
+*.db
+*.log
+*.log.*
+
+# IDE, sistema operacional e pacotes de entrega
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.zip
